@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: #EFF1FA;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__log {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.vertical-input {
+    width: 60%;
+    height: 200px;
+    border-radius: 16px;
+    background-color: #EFF1FA;
+    border: none;
+    color: #0A3871;
+    padding: 2rem;
+    font-size: 32px;
+    font-weight: normal;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50px; 
+    left: 180px;
+    outline: none;
+}
+
+.vertical-input::placeholder {
+    color: #0A3871;
+    font-size: 32px;
+    font-weight: normal;
+    font-family: 'Inter', sans-serif;
+    padding: 0; 
+    margin: 0;
+}
+
+.paragrafo-deinf {
+    font-family: 'Inter', sans-serif;
+    font-size: 9px;
+    color: #333;
+    margin-bottom: 15px;
+    position: fixed;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    z-index: 100;
+    left: 15.5%;
+    bottom: 80px;
+    text-align: center;
+}
+
+.paragrafo-informativo i {
+    color: #5c656f; 
+    font-size: 15px; 
+    margin-right: 2px; 
+    left: 15.5%;/
+}
+
+.container_botaoescripto {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    margin: 50px; 
+    z-index: 100; 
+    left: 17%;
+}
+
+.botao_criptografar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    margin: 50px; 
+    z-index: 100; 
+    left: 17%;
+    border-radius: 16px;
+    background: #0A3871;
+    padding: 12px 20px; 
+    font-size: 23px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    border: 1px solid #0A3871;
+    margin-top: 2rem;
+    width: 300px;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.botao_descriptografar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    margin: 50px; 
+    z-index: 100; 
+    left: 40%;
+    border-radius: 16px;
+    background: white;
+    padding: 12px 20px;
+    font-size: 23px;
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    margin-top: 2rem;
+    width: 300px;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.container {
+    width: 20%;
+    height: 94%;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: space-between;
+    border-radius: 32px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    background-size: 100% 100%;
+    position: absolute;
+    background: #fdfdfd;
+    right: 40px;
+}
+
+.texto__paragrafo {
+    width: 100%;
+    height: 200px;
+    border-radius: 16px;
+    background: #fdfdfd;
+    border: none;
+    color: #0A3871;
+    padding: 2rem;
+    font-size: 17px;
+    font-weight: normal;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    outline: none;
+    top: 0;
+}
+
+.container__imgnaoencontrado {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+}
+
+.mensagem__inicial {
+    width: 100%;
+    height: 50%;
+    border-radius: 16px;
+    background: #fdfdfd;
+    border: none;
+    color: #0A3871;
+    padding: 2rem;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    text-align: center; 
+    outline: none;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.botao_copiar {
+    border-radius: 16px;
+    background: white;
+    padding: 12px 20px;
+    font-size: 23px;
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    margin-top: 2rem;
+    width: 250px;
+    height: 8%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    right: 17px; 
+    bottom: 20px; 
+    text-align: center;
+}

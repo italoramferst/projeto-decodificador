@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-... seu código de integridade ..." crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <img src="./image/Frame 6.png" alt="Logo" class="container__log" />
+    <div class="container__conteudo">
+        <h1></h1>
+        <textarea class="vertical-input" placeholder="Insira seu texto aqui." id="input"></textarea>
+        <p class="paragrafo-deinf">
+            <i class="fas fa-info-circle"></i> Apenas letras minúsculas e sem acento.
+        </p>
+        <div class="container_botaoescripto">.  
+            <button onclick="criptografar()" class="botao_criptografar">Criptografar</button>  
+            <button onclick="descriptografar()" class="botao_descriptografar">Descriptografar</button> 
+        </div>
+    </div>
+    <div class="container">
+        <h1></h1>
+        <p class="texto__paragrafo" id="output"></p>
+        <p class="mensagem__inicial">Nenhuma mensagem encontrada.<br> Digite o texto que você deseja criptografar ou descriptografar.</p>
+        <img src="./image/High quality products 1 1.svg" alt="Imagem de nao encontrado" class="container__imgnaoencontrado" />
+        <div class="container_botao">.  
+            <button onclick="copiarTexto()" class="botao_copiar" id="botaoCopiar">Copiar</button>  
+        </div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>
